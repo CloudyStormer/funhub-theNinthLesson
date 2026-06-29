@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>第二集首尾帧总览</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #101214;
+      --panel: #181b1f;
+      --line: #30343a;
+      --text: #f3f5f7;
+      --muted: #a8b0ba;
+      --accent: #73d2ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      padding: 18px 24px;
+      background: rgba(16, 18, 20, 0.92);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(12px);
+    }
+    h1 {
+      margin: 0 0 6px;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+    p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.6;
+      font-size: 14px;
+    }
+    main {
+      max-width: 1500px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    section {
+      margin-bottom: 28px;
+      border: 1px solid var(--line);
+      background: var(--panel);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    h2 {
+      margin: 0;
+      padding: 14px 16px;
+      font-size: 18px;
+      letter-spacing: 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .pair {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1px;
+      background: var(--line);
+    }
+    figure {
+      margin: 0;
+      background: #0b0d0f;
+    }
+    figcaption {
+      padding: 10px 12px;
+      color: var(--accent);
+      font-size: 14px;
+      border-bottom: 1px solid var(--line);
+    }
+    img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 1672 / 941;
+      object-fit: contain;
+      background: #050607;
+    }
+    @media (max-width: 900px) {
+      main { padding: 14px; }
+      .pair { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>《第九节课》第二集首尾帧总览</h1>
+    <p>按最终 12 个片段排列。连续片段使用同一张图作为上一段尾帧和下一段首帧，跳切段允许首尾不同。</p>
+  </header>
+  <main>
+    <section>
+      <h2>01 陈雨白天归来</h2>
+      <div class="pair">
+        <figure><figcaption>首帧</figcaption><img src="../片段01_陈雨白天归来/首帧.png" alt="01 首帧"></figure>
+        <figure><figcaption>尾帧</figcaption><img src="../片段01_陈雨白天归来/尾帧.png" alt="01 尾帧"></figure>
+      </div>
+    </section>
+    <section>
+      <h2>02 记忆被全班改写</h2>
+      <div class="pair">
+        <figure><figcaption>首帧</figcaption><img src="../片段02_记忆被全班改写/首帧.png" alt="02 首帧"></figure>
+        <figure><figcaption>尾帧</figcaption><img src="../片段02_记忆被全班改写/尾帧.png" alt="02 尾帧"></figure>
+      </div>
+    </section>
+    <section>
+      <h2>03 班级群记录消失</h2>
+      <div class="pair">
+        <figure><figcaption>首帧</figcaption><img src="../片段03_班级群记录消失/首帧.png" alt="03 首帧"></figure>
+        <figure><figcaption>尾帧</figcaption><img src="../片段03_班级群记录消失/尾帧.png" alt="03 尾帧"></figure>
+      </div>
+    </section>
+    <section>
+      <h2>04 许眠递纸条警告</h2>
+      <div class="pair">
+        <figure><figcaption>首帧</figcaption><img src="../片段04_许眠递纸条警告/首帧.png" alt="04 首帧"></figure>
+        <figure><figcaption>尾帧</figcaption><img src="../片段04_许眠递纸条警告/尾帧.png" alt="04 尾帧"></figure>
+      </div>
+    </section>
+    <section>
+      <h2>05 黑板出现别看</h2>
+      <div class="pair">
+        <figure><figcaption>首帧</figcaption><img src="../片段05_黑板出现别看/首帧.png" alt="05 首帧"></figure>
+        <figure><figcaption>尾帧</figcaption><img src="../片段05_黑板出现别看/尾帧.png" alt="05 尾帧"></figure>
+      </div>
+    </section>
+    <section>
+      <h2>06 夜晚宿舍熄灯查寝</h2>
+      <div class="pair">
+        <figure><figcaption>首帧</figcaption><img src="../片段06_夜晚宿舍熄灯查寝/首帧.png" alt="06 首帧"></figure>
+        <figure><figcaption>尾帧</figcaption><img src="../片段06_夜晚宿舍熄灯查寝/尾帧.png" alt="06 尾帧"></figure>
+      </div>
+    </section>
+    <section>
+      <h2>07 老师手电测试瞳孔</h2>
+      <div class="pair">
+        <figure><figcaption>首帧</figcaption><img src="../片段07_老师手电测试瞳孔/首帧.png" alt="07 首帧"></figure>
+        <figure><figcaption>尾帧</figcaption><img src="../片段07_老师手电测试瞳孔/尾帧.png" alt="07 尾帧"></figure>
+      </div>
+    </section>
+    <section>
+      <h2>08 点名册正放逼读</h2>
+      <div class="pair">
+        <figure><figcaption>首帧</figcaption><img src="../片段08_点名册正放逼读/首帧.png" alt="08 首帧"></figure>
+        <figure><figcaption>尾帧</figcaption><img src="../片段08_点名册正放逼读/尾帧.png" alt="08 尾帧"></figure>
+      </div>
+    </section>
+    <section>
+      <h2>09 点名册倒置试探</h2>
+      <div class="pair">
+        <figure><figcaption>首帧</figcaption><img src="../片段09_点名册倒置试探/首帧.png" alt="09 首帧"></figure>
+        <figure><figcaption>尾帧</figcaption><img src="../片段09_点名册倒置试探/尾帧.png" alt="09 尾帧"></figure>
+      </div>
+    </section>
+    <section>
+      <h2>10 许眠暗中踩脚救场</h2>
+      <div class="pair">
+        <figure><figcaption>首帧</figcaption><img src="../片段10_许眠暗中踩脚救场/首帧.png" alt="10 首帧"></figure>
+        <figure><figcaption>尾帧</figcaption><img src="../片段10_许眠暗中踩脚救场/尾帧.png" alt="10 尾帧"></figure>
+      </div>
+    </section>
+    <section>
+      <h2>11 老师贴脸镜片反光</h2>
+      <div class="pair">
+        <figure><figcaption>首帧</figcaption><img src="../片段11_老师贴脸镜片反光/首帧.png" alt="11 首帧"></figure>
+        <figure><figcaption>尾帧</figcaption><img src="../片段11_老师贴脸镜片反光/尾帧.png" alt="11 尾帧"></figure>
+      </div>
+    </section>
+    <section>
+      <h2>12 点名册加深待观察</h2>
+      <div class="pair">
+        <figure><figcaption>首帧</figcaption><img src="../片段12_点名册加深待观察/首帧.png" alt="12 首帧"></figure>
+        <figure><figcaption>尾帧</figcaption><img src="../片段12_点名册加深待观察/尾帧.png" alt="12 尾帧"></figure>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
