@@ -1,1 +1,2 @@
 第一次交付/6月1日.mp4 filter=lfs diff=lfs merge=lfs -text
+第二版/三方生成/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
